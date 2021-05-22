@@ -195,27 +195,42 @@ body {
 }
 
 .Section5 {
-  padding-top: 2em;
-  height: 120vh;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .Section6 {
-  padding-top: 2em;
-  height: 20vh;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 30vh;
+  color: WHITE;
 }
 
 .Section7 {
-  padding-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   height: 60vh;
 }
 
 .Section8 {
-  padding-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   height: 30vh;
 }
 
 .Section9 {
-  padding-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   height: 60vh;
 }
 
@@ -367,6 +382,17 @@ body {
   border: 1px solid darkblue;
 }
 
+.Main2-Button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
+
 .Section2-J {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -418,6 +444,18 @@ body {
 
 .Section3-H3 {
   font-size: 30px;
+}
+
+.Section5-J {
+  padding-left: 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 2em;
 }
 
 /***state***/
@@ -485,6 +523,55 @@ body {
 .Section4-I {
   padding-top: 2em;
   padding-left: 2em;
+}
+
+.Section5-btn {
+  border: none;
+}
+
+.Section5-H2 {
+  color: darkblue;
+  font-size: 10px;
+}
+
+.Section5-H3 {
+  color: black;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+.Section5-H4 {
+  color: black;
+  font-size: 30px;
+}
+
+.Section5-Hr {
+  border: 1px solid darkblue;
+  width: 5em;
+}
+
+.Section5-P {
+  text-align: center;
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.Section6-Row {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.Section6-Col {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.Section6-H2 {
+  margin: 0 auto;
 }
 
 /*** SMACSS ***/
