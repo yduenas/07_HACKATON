@@ -1,0 +1,35 @@
+/*mixin*/
+@mixin mq($breakpoint) {
+	@media screen and(min-width:$breakpoint) {
+		@content;
+	}
+}
+
+/*
+.Header {
+	width: 100%;
+	background: pink;
+	height: 100px;
+	&-List {
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@include mq(1366px) {
+			background: red;
+			flex-direction: column;
+		}
+		@include mq(1200px) {
+			background: skyblue;
+			flex-direction: column;
+		}
+
+		@include mq(1000px) {
+			background: blue;
+			flex-direction: column;
+		}
+	}
+}
+
+*/

@@ -1,0 +1,30 @@
+@import "./mixins/mixins";
+@import "./base/base";
+@import "./layout/layout";
+@import "./module/module";
+@import "./state/state";
+@import "./theme/theme";
+
+/*** SMACSS ***/
+/**
+1 BASE: CIMEINTOS
+2 LAYOUT: PAREDES, COLUMNS,...
+3 MODULE: PUERTAS, VENTANAS, ...
+4 STATE: PUERTA ABIERTA/CERRADA, LUZ ENCENDIDA/APAGADA,...
+5 THEME: COLORES DE PUERTAS, VENTANAS, PAREDES, ...
+**/
+/**
+- Base: son los valores predeterminados. Son como el relleno, el margen, el borde, la fuente
+  y otras propiedades, estos valores se utilizan en todo el sitio web y todos los elementos.
+- Layout: divide una página en secciones con elementos como encabezado, pie de página, página
+  principal, etc. Los diseños mantienen uno o más módulos juntos. A menudo, los desarrolladores
+  muestran elementos de diseño prefijando la clase con l-, p. L-encabezado, l-pie de página.
+- Modules: son las partes reutilizables y modulares de nuestro diseño, como la barra de navegación,
+  la barra lateral y algunos elementos que se repiten en el sitio.
+- State: son formas de describir cómo se verán nuestros módulos o diseños cuando estén en un estado
+  particular (por ejemplo, activo, inactivo, expandido, oculto). Estos tienen el prefijo is-, p. está
+  activo, está inactivo, está expandido, está oculto.
+- Theme: Las reglas de tema son similares a las reglas de estado en que describen cómo podrían
+  verse los módulos o diseños. Es más aplicable para sitios más grandes con elementos compartidos
+  que se ven diferentes en todas partes.
+**/
