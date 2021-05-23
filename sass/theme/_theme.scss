@@ -45,10 +45,14 @@
 	color: darkblue;
 	font-size: 10px;
 }
+
 .Section4-J {
-	align-items: center;
-	justify-content: center;
+	// align-items: flex-end;
+	// justify-content: center;
+	text-align: right;
+	padding-right: 2em;
 }
+
 .Section4-I {
 	padding-top: 2em;
 	padding-left: 2em;
@@ -91,7 +95,65 @@
 	padding-bottom: 2em;
 	padding-left: 2em;
 	padding-right: 2em;
+	text-align: right;
 }
 .Section6-H2 {
 	margin: 0 auto;
+	text-align: left;
+}
+.Section7-C {
+	text-align: center;
+}
+.Section7-H2 {
+	color: darkblue;
+	font-size: 10px;
+}
+.Section7-H3 {
+	color: black;
+	font-size: 30px;
+}
+.Section7-B {
+	background-color: white;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.Section7-R {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.Section7-Img {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	margin-top: 1em;
+}
+.Section7-H4 {
+	font-size: 15px;
+	margin: 0 auto;
+}
+.Section7-H5 {
+	font-size: 10px;
+	margin: 0 auto;
+}
+.Section8-C {
+	border: 1px solid black;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.Section8-Img {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }

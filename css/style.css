@@ -186,12 +186,6 @@ body {
   padding-bottom: 1em;
   padding-left: 1em;
   padding-right: 1em;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .Section5 {
@@ -206,16 +200,14 @@ body {
   padding-bottom: 1em;
   padding-left: 1em;
   padding-right: 1em;
-  height: 30vh;
   color: WHITE;
 }
 
 .Section7 {
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  height: 60vh;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
 }
 
 .Section8 {
@@ -229,9 +221,21 @@ body {
 .Section9 {
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  height: 60vh;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+.Section9-C {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.Section9-H2 {
+  font-size: 10px;
+}
+
+.Section9-P {
+  font-size: 8px;
 }
 
 /*footer*/
@@ -446,6 +450,29 @@ body {
   font-size: 30px;
 }
 
+.Section4-R {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.Section4-A {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
+}
+
+.Section4-C {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 0em;
+}
+
 .Section5-J {
   padding-left: 20%;
   -webkit-box-align: center;
@@ -456,6 +483,38 @@ body {
           justify-content: center;
   text-align: center;
   margin-top: 2em;
+}
+
+.Section5-C {
+  text-align: center;
+}
+
+.Section9-Li {
+  list-style: none;
+  font-size: 10px;
+}
+
+.Section9-Img {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.Section9-H2 {
+  font-size: 10px;
+  padding-left: 1em;
+}
+
+.Section9-H3 {
+  font-size: 8px;
+  padding-left: 1em;
+}
+
+.Section9-P {
+  font-size: 8px;
+  padding-left: 1em;
 }
 
 /***state***/
@@ -512,12 +571,8 @@ body {
 }
 
 .Section4-J {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: right;
+  padding-right: 2em;
 }
 
 .Section4-I {
@@ -568,10 +623,86 @@ body {
   padding-bottom: 2em;
   padding-left: 2em;
   padding-right: 2em;
+  text-align: right;
 }
 
 .Section6-H2 {
   margin: 0 auto;
+  text-align: left;
+}
+
+.Section7-C {
+  text-align: center;
+}
+
+.Section7-H2 {
+  color: darkblue;
+  font-size: 10px;
+}
+
+.Section7-H3 {
+  color: black;
+  font-size: 30px;
+}
+
+.Section7-B {
+  background-color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.Section7-R {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.Section7-Img {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  margin-top: 1em;
+}
+
+.Section7-H4 {
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.Section7-H5 {
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+.Section8-C {
+  border: 1px solid black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Section8-Img {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /*** SMACSS ***/
